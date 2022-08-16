@@ -8,7 +8,7 @@ from konlpy.tag import Okt
 
 
 MAX_LEN = 30
-model_path = 'model/best_model_1.h5'
+model_path = 'model/best_model.h5'
 model = keras.models.load_model(model_path)
 okt = Okt()
 
